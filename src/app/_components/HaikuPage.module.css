@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 32px; /* Padding inside the component */
+  margin: 16px auto; /* Center the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Subtle pattern */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center items horizontally */
+  width: 90%; /* Full width */
+  max-width: 800px; /* Maximum width */
+  height: auto; /* Auto height */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* Column layout for icon and icon name */
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 16px; /* Space between icon and text */
+}
+
+.text-container {
+  text-align: center; /* Center align text */
+}
+
+.haiku-text {
+  font-size: 2em; /* Larger text for the poem */
+  color: #333; /* Dark text color */
+  margin-bottom: 16px; /* Space between text and author */
+}
+
+.haiku-author {
+  font-size: 1.2em; /* Slightly larger text size */
+  color: #666; /* Lighter text color */
+}
+
+.icon-name {
+  font-size: 1em; /* Normal text size */
+  color: #999; /* Lighter text color */
+  text-align: center; /* Center text */
+  margin-top: 4px; /* Space between icon and icon name */
+}
+
+.author-icon {
+  width: 100px; /* Fixed width for the icon */
+  height: 100px; /* Fixed height for the icon */
+  color: #d32f2f; /* Red color for the icon */
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 20px;
+  background-color: #ffffff;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Subtle pattern */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.input,
+.textarea,
+.select {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Light background for input fields */
+  color: #333; /* Dark text color */
+}
+
+.textarea {
+  resize: vertical; /* Allow only vertical resizing */
+}
+
+.button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+  background-color: #d32f2f; /* Use the same red color as the subtitle */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+}

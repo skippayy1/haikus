@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.haiku {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the component */
+  margin: 16px 0; /* Margin between haikus */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Subtle pattern */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  width: 90%; /* Full width */
+  max-width: 800px; /* Maximum width */
+  height: 100px; /* Fixed height */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for box shadow and transform */
+}
+
+.haiku:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+  transform: translateY(-5px); /* Move up slightly on hover */
+}
+
+.haiku-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+}
+
+.haiku-text {
+  font-size: 1.2em; /* Slightly larger text */
+  color: #333; /* Dark text color */
+  margin-bottom: 8px; /* Space between text and author */
+}
+
+.haiku-author {
+  font-size: 1em; /* Normal text size */
+  color: #666; /* Lighter text color */
+}
+
+.author-icon {
+  height: 100%; /* Take up the full height of the box */
+  display: flex; /* Flexbox for icon alignment */
+  align-items: center; /* Center icon vertically */
+  margin-right: 16px; /* Space between icon and text */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.haiku:hover .author-icon {
+  color: #d32f2f; /* Red color on hover */
+}
+
+/* Remove link decoration and colors */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
